@@ -20,6 +20,7 @@ let age = '24';
 
 function myLittleFunction () {
     //condition : nomber of ps is smaller than 5
+    //<, >, <=, >=, ===, !==
     if ($('p').length < 5){
         $('main').append('<p>A p is appended in the main.</p>');
     }else {
@@ -51,6 +52,10 @@ colors.forEach(function(color){
     $('#box-container').append ('<div class="box"></div>');
     $('.box:last-child').css('background', color)
 })
+
+ for (let i =0; i < 100; i++ ) {
+    console.log(i)
+}
 
 //$('#box-container').append ('<div class="box"></div>');
 //$('.box:last-child').css('background', colors[0])
