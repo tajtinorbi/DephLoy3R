@@ -1,0 +1,26 @@
+p {
+    color: red;
+}
+
+button {
+    opacity: 20px;
+    color: green;
+    margin: 50px;
+}
+
+a {
+    opacity: 0px;
+}
+
+.container {
+    opacity: 10px;
+}
+
+.blue {
+    background: blue;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
