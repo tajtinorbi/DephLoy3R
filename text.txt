@@ -1,1 +1,3 @@
-Fast And Foriouse 8
+p {
+    color: red;
+}
